@@ -22,15 +22,15 @@
     </dl> -->
         <dl class="system_log">
             <dt>
-                <img class="icon1" src="/admin/img/coin03.png" /><img class="icon2"
-                                                                  src="/admin/img/coin04.png" />管理员管理<img class="icon3"
-                                                                                                      src="/admin/img/coin19.png" /><img class="icon4"
-                                                                                                                                     src="/admin/img/coin20.png" />
+                <img class="icon1" src="/admin/img/coin03.png" />
+                <img class="icon2" src="/admin/img/coin04.png" />
+                管理员管理<img class="icon3" src="/admin/img/coin19.png" />
+                <img class="icon4" src="/admin/img/coin20.png" />
             </dt>
             <dd>
                 <img class="coin11" src="/admin/img/coin111.png" />
                 <img class="coin22" src="/admin/img/coin222.png" />
-                <a class="cks" href="../user.html" target="main">添加</a>
+                <a class="cks" href="/people/add" target="main">添加</a>
                 <img class="icon5" src="/admin/img/coin21.png" />
             </dd>
 
