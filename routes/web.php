@@ -23,3 +23,7 @@ Route::prefix('/admin')->group(function(){
     Route::get('/left','AdminController@left');
     Route::get('/head','AdminController@head');
 });
+
+Route::prefix('/Banner')->group(function(){
+    Route::get('/add','BannerController@add');
+});
