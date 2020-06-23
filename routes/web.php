@@ -24,6 +24,11 @@ Route::prefix('/admin')->group(function(){
     Route::get('/head','AdminController@head');
 });
 
-Route::prefix('/Banner')->group(function(){
+Route::prefix('/banner')->group(function(){
     Route::get('/add','BannerController@add');
+    Route::any('/do_add','BannerController@do_add');
+    Route::any('/list','BannerController@list');
+    Route::any('/del','BannerController@del');
+    Route::any('/upd/{id}','BannerController@upd');
+    Route::any('/do_upd','BannerController@do_upd');
 });

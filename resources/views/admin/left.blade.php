@@ -30,14 +30,14 @@
             <dd>
                 <img class="coin11" src="/admin/img/coin111.png" />
                 <img class="coin22" src="/admin/img/coin222.png" />
-                <a class="cks" href="/people/add" target="main">添加</a>
+                <a class="cks" href="/banner/add" target="main">添加</a>
                 <img class="icon5" src="/admin/img/coin21.png" />
             </dd>
 
             <dd>
                 <img class="coin11" src="/admin/img/coin111.png" />
                 <img class="coin22" src="/admin/img/coin222.png" />
-                <a class="cks" href="../user.html" target="main">展示</a>
+                <a class="cks" href="/banner/list" target="main">展示</a>
                 <img class="icon5" src="/admin/img/coin21.png" />
             </dd>
         </dl>
