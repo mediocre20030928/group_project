@@ -32,3 +32,14 @@ Route::prefix('/banner')->group(function(){
     Route::any('/upd/{id}','BannerController@upd');
     Route::any('/do_upd','BannerController@do_upd');
 });
+
+Route::prefix('/category')->group(function(){
+    Route::get('/add','CategoryController@add');
+    Route::any('/create','CategoryController@create');
+    Route::any('/index','CategoryController@index');
+    Route::any('/delete','CategoryController@delete');
+    Route::any('/edit/{id}','CategoryController@edit');
+    Route::any('/update','CategoryController@update');
+    Route::any('/jidian','CategoryController@jidian');
+});
+
